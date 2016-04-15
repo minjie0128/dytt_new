@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/bg_gray">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_corners"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding"
+        android:orientation="vertical"
+        >
+
+
+        <EditText
+            android:id="@+id/ed_userNo"
+            style="@style/txtStyle.L5TxtStyle"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/user_account"
+            android:drawablePadding="@dimen/drawable_padding"
+            android:background="@null"
+            android:textColorHint="@color/light_gray"
+            android:hint="@string/hint_userNo"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginBottom="5dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_c"
+            />
+
+        <EditText
+            android:id="@+id/ed_userPwd"
+            style="@style/txtStyle.L5TxtStyle"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:hint="@string/hint_userNo"
+            android:layout_marginLeft="@dimen/margin"
+            android:textColorHint="@color/light_gray"
+            android:drawableLeft="@drawable/user_pwd"
+            android:drawablePadding="@dimen/drawable_padding"
+            android:background="@null"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/txtStyle.L3TxtStyle"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/login"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+
+        android:background="@drawable/selector_btn"
+        />
+
+
+</LinearLayout>

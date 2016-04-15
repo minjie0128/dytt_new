@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="common_back">#FF333333</color>
+
+    <color name="light_gray">#FFE0E0E0</color>
+
+
+    <color name="bg_gray">#FFEFEFF4</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="gray_c">#FFCCCCCC</color>
+
+    <color name="red">#FFFF0000</color>
+
+    <color name="text_light_orange">#FFED6D0F</color>
+    <color name="text_light_orange_pressed">#FFFF6D0F</color>
+
+</resources>

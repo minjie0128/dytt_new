@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AladingEE</string>
+
+    <string name="login">登录</string>
+    <string name="hint_userNo">请输入您的帐号</string>
+    <string name="hint_userPwd">请输入您的密码</string>
+
+</resources>

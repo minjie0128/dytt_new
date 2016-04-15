@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="txtStyle">
+        <item name="android:textColor">@color/common_back</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="txtStyle.L1TxtStyle" >
+        <item name="android:textSize">@dimen/L1_TextSize</item>
+    </style>
+
+    <style name="txtStyle.L2TxtStyle" >
+        <item name="android:textSize">@dimen/L2_TextSize</item>
+    </style>
+
+    <style name="txtStyle.L3TxtStyle" >
+        <item name="android:textSize">@dimen/L3_TextSize</item>
+    </style>
+
+    <style name="txtStyle.L4TxtStyle" >
+        <item name="android:textSize">@dimen/L4_TextSize</item>
+    </style>
+
+    <style name="txtStyle.L5TxtStyle" >
+        <item name="android:textSize">@dimen/L5_TextSize</item>
+    </style>
+
+    <style name="txtStyle.L6TxtStyle" >
+        <item name="android:textSize">@dimen/L6_TextSize</item>
+    </style>
+
+
+</resources>
